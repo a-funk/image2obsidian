@@ -2,7 +2,7 @@
 
 > Bridge AirDropped iPhone photos into your Obsidian vault. OCR, classify, and route — automatically.
 
-I like living in the real world. I like paper and pens. I like brushes and paint (shameless artfunk.org plug). I do not want everything in my life to be entirely digital.  Todo lists, diagrams, charts, whatever - I love a notebook.  But I had relevant context I wanted to share with my agents in some of these notes. So I built image2obsidian - an open source spinoff of a small part of www.toto.tech.  
+I like living in the real world. I like paper and pens. I like brushes and paint (shameless [artfunk](www.artfunk.org) plug). I do not want everything in my life to be entirely digital.  Todo lists, diagrams, charts, whatever - I love a notebook.  But I had relevant context I wanted to share with my agents in some of these notes. So I built image2obsidian - an open source spinoff of a small part of www.toto.tech.  
 
 I have found it very useful and I hope you will too. 
 
