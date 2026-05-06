@@ -36,6 +36,10 @@ Read `~/.image2obsidian.json`. Required:
 Optional fields: `downloads_path`, `default_hours`, `subfolders` (override
 per-content-type folder names).
 
+The shared `config.example.json` also lists a `model` field — that one is
+CLI-only (the CLI calls the Anthropic API directly). Ignore it on the skill
+path; Claude Code uses its own host model for vision.
+
 If the config doesn't exist, ask the user to create it before proceeding.
 Never guess vault paths.
 
