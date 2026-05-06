@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "image2obsidian"
+version = "0.1.0"
+description = "AirDropped iPhone images into your Obsidian vault. OCR + routing via Claude vision."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Alex Funk", email = "alexfunk1222@gmail.com" }]
+keywords = ["obsidian", "airdrop", "ocr", "claude", "anthropic", "vision", "knowledge-management"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business",
+    "Topic :: Text Processing",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "anthropic>=0.40.0",
+    "typer>=0.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+]
+
+[project.scripts]
+image2obsidian = "image2obsidian.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/a-funk/image2obsidian"
+Repository = "https://github.com/a-funk/image2obsidian"
+Issues = "https://github.com/a-funk/image2obsidian/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["image2obsidian"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

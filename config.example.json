@@ -1,0 +1,16 @@
+{
+  "vault_path": "/absolute/path/to/your/Obsidian Vault",
+  "vault_root": "Inbox/AirDrop",
+  "downloads_path": "~/Downloads",
+  "default_hours": 24,
+  "model": "claude-sonnet-4-6",
+  "subfolders": {
+    "notes": "notes",
+    "diagram": "diagrams",
+    "drawing": "drawings",
+    "principles": "principles",
+    "screenshot": "screenshots",
+    "photo": "photos",
+    "mixed": "uploads"
+  }
+}
