@@ -10,7 +10,7 @@ Take a photo with an iPhone -> Airdrop it to the device running your agent -> i2
 
 `image2obsidian` watches your Downloads folder for AirDropped images, runs OCR and content analysis with Claude's vision model, and writes structured Markdown documents into your Obsidian vault — sorted into subfolders by content type, with the original image attached as a wikilink.
 
-<video src="https://github.com/a-funk/image2obsidian/releases/download/media-assets/image2obsidian-demo.mp4" controls width="100%"></video>
+[![Watch the image2obsidian demo on X](docs/demo-poster.jpg)](https://x.com/toto_tech_/status/2052230644886118573)
 
 Works two ways. Same routing rules, same document format, same vault layout:
 
