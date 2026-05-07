@@ -17,6 +17,8 @@ Works two ways. Same routing rules, same document format, same vault layout:
 - **CLI** — `pip install image2obsidian`. Scriptable, scheduleable, anyone with an Anthropic API key.
 - **Claude Code skill** — drop the `SKILL.md` into your Claude Code skills directory. No API key needed; uses Claude Code's built-in vision.
 
+Follow me on [X for more](https://x.com/toto_tech_/status/2052230644886118573) (please i'm so follower poor)
+
 Both paths are MIT-licensed. Both are open source.
 
 ## Why
